@@ -6,4 +6,10 @@ describe "current_age_for_birth_year method" do
 
     expect(age_of_person).to eq(19)
   end
+
+  it "returns 0" do
+    age_of_person = current_age_for_birth_year(2020)
+
+    expect(age_of_person).to eq(0)
+  end
 end
