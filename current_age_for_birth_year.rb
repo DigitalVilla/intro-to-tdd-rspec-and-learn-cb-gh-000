@@ -1,3 +1,4 @@
 def current_age_for_birth_year(year)
-  return year
+
+  return 2003 - year
 end
