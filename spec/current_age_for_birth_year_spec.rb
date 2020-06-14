@@ -8,7 +8,7 @@ describe "current_age_for_birth_year method" do
   end
 
   it "returns 0" do
-    age_of_person = current_age_for_birth_year(2020)
+    age_of_person = current_age_for_birth_year(2003)
 
     expect(age_of_person).to eq(0)
   end
